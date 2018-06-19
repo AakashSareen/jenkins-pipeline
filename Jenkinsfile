@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('buildIPA') {
+    stage('startProcess') {
       steps {
         echo 'Starting build process'
       }
